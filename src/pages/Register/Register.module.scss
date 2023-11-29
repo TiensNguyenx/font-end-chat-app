@@ -1,0 +1,84 @@
+.container {
+    background-color: var(--white-background);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    align-items: center;
+    width: 100%;
+    background-color: var(--primary);
+    height: 100%;
+    background-color: #dbeafe;
+}
+.input-box input {
+    width: 400px;
+    padding: 15px 15px 15px 40px;
+    border-radius: 40px;
+}
+.form {
+    padding: 20px 20px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    justify-content: center;
+}
+.icon {
+    position: absolute;
+    right: 367px;
+    top: 16px;
+    font-size: 2rem;
+}
+.input-box {
+    position: relative;
+    input {
+        font-size: 1.5rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #64748b;
+        border: 1px solid #cbd5e1;
+        background-color: #ffffff;
+        background-clip: padding-box;
+
+        border-radius: 8px;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+}
+.remember-forgot {
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.btn {
+    width: 400px;
+    padding: 15px;
+    background-color: var(--white-background);
+    border-radius: 40px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.register-link {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon-eye {
+    position: absolute;
+    font-size: 2.3rem;
+    right: 16px;
+    top: 9px;
+}
+button[disabled='disabled'],
+button:disabled {
+    cursor: not-allowed;
+}

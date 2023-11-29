@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login";
 import Chat from "./pages/Chat";
-
+import Register from "./pages/Register";
 import { ToastContainer, } from 'react-toastify';
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Login />} />
             <Route path="/chat" element={<Chat />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </div>
       </Router>

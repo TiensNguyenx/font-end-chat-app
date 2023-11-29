@@ -1,0 +1,29 @@
+.containner {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.row-left {
+    display: flex;
+}
+.row-right {
+    display: flex;
+}
+.user {
+    img {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+    }
+}
+.cus-svg {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #334155;
+    background: #e2e8f0;
+    border-radius: 50rem;
+    height: 20px;
+    width: 20px;
+    transition: all 0.3s ease;
+}
