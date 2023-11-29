@@ -7,12 +7,7 @@ function Header() {
         <div className={cx('wrapper')}>
             <div className={cx('containner')}>
                 <div className={cx('row-left')}>
-
-
                     <PiChatCircleTextBold style={{ width: '50px', height: '50px' }} />
-
-
-
                 </div>
                 <div className={cx('row-right')}>
 

@@ -27,7 +27,10 @@
     }
 }
 .chat-space {
-    width: 80%;
+    width: 60%;
+}
+.chat-online {
+    width: 20%;
 }
 .user-img {
     width: 48px;
@@ -37,10 +40,16 @@
 .user-containner {
     display: flex;
     margin: 20px 0;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #f1f5f9;
+    }
 }
 
 .user-info {
     margin-left: 12px;
+    flex: 1;
 }
 .user-name {
     color: #64748b;
@@ -66,4 +75,30 @@
 }
 .user-status {
     font-size: 1.2rem;
+}
+.history {
+}
+.chat-wrapper {
+    overflow-y: scroll;
+    height: 50%;
+    background-color: rgb(219, 234, 254);
+    padding: 0 20px;
+}
+.input-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    button {
+        border-radius: 50%;
+        cursor: pointer;
+        width: 38px;
+        height: 38px;
+    }
+    input {
+        width: 70%;
+        border-radius: 8px;
+        background-color: rgb(226, 232, 240);
+        padding: 10px;
+        font-size: 1.5rem;
+    }
 }
